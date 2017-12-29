@@ -1,0 +1,25 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.prabowo.tutorpedia.MainActivity">
+    <item
+        android:id="@+id/action_math"
+        android:orderInCategory="100"
+        android:title="Matematika"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_phys"
+        android:orderInCategory="100"
+        android:title="Fisika"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_chem"
+        android:orderInCategory="100"
+        android:title="Kimia"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_bio"
+        android:orderInCategory="100"
+        android:title="Biologi"
+        app:showAsAction="never" />
+</menu>

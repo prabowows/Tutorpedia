@@ -1,0 +1,53 @@
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/LLayoutmateri"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardPreventCornerOverlap="false"
+    app:elevation="4dp">
+
+    <include layout="@layout/item_divider" >
+    </include>
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <TextView
+            android:layout_marginTop="8dp"
+            android:layout_gravity="center_vertical"
+            android:id="@+id/TVheadmateri"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginLeft="16dp"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Headline"
+            android:textColor="@color/colorPrimary"
+            android:text="Judul Materi"
+            android:textStyle="bold"/>
+
+
+
+        <TextView
+            android:layout_marginLeft="16dp"
+            android:layout_above="@id/TVheadmateri"
+            android:layout_marginTop="8dp"
+            android:id="@+id/TVdescmateri"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textSize="14sp"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Subhead"
+            android:text="Deskripsi materi"
+            android:textColor="@color/colorPrimary"
+            android:layout_marginBottom="20dp"
+            />
+
+    </LinearLayout>
+
+
+</android.support.v7.widget.CardView>
